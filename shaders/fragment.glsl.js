@@ -11,7 +11,7 @@
 
 
 
-}
+
 
 const Fragment = `
 //uniform sampler2D globeTexture;
@@ -48,5 +48,5 @@ void main(){
   
   // create an atmosphere add a .xyz property
   
-`
+}`
 export default Fragment
