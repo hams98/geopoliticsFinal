@@ -2,22 +2,12 @@
 //if we have to pass this vertex shader attribute to
 //fragment shader
 
-varying vec2 vertexUV;
-varying vec3 vertexNormal;
+//varying vec2 vertexUV;
+//varying vec3 vertexNormal;
 
 //represents every vertex on the globe
 //https://threejs.org/docs/#api/en/renderers/webgl/WebGLProgram
-void main(){
-    //x,y,z postions and for translations and transforms
-    // we need to have dynamix x,y,z 
-    // position is a vector 3
 
-    vertexUV = uv;
-vertexNormal = normalize(normalMatrix * normal);
-    //modelmatrix, view matrix,projection matrix are matrix data types
-    gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
-
-}
 
 // example triangle matrix =
 // [-1, 0, 0,
@@ -34,3 +24,13 @@ vertexNormal = normalize(normalMatrix * normal);
 
 //takeaway is to use the boiler plate code for shader to work
  
+const Vertex = `
+//uniform sampler2D globeTexture;
+void main(){
+ 
+    vertexUV = uv;
+vertexNormal = normalize(normalMatrix * normal);
+    //modelmatrix, view matrix,projection matrix are matrix data types
+    gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
+}`
+export default Vertex
