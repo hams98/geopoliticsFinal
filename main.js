@@ -38,7 +38,7 @@ vertexNormal = normalize(normalMatrix * normal);
 import { Float32BufferAttribute, MeshBasicMaterial } from 'three';
 console.log("hey")
 //install a vite-plug in string so vite understangs to import the shader
-import atmosphereVertexShader from './shaders/atmosphereVertex.glsl'
+//import atmosphereVertexShader from './shaders/atmosphereVertex.glsl'
 import vertexShader from './shaders/vertex.glsl'
 import atmosphereFragmentShader from './shaders/atmosphereFragment.glsl'
 import fragmentShader from './shaders/fragment.glsl'
