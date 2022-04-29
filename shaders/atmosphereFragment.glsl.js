@@ -1,6 +1,6 @@
-varying vec3 vertexNormal;
-
-uniform sampler2D globeTexture;
+//varying vec3 vertexNormal;
+const atmosphereFragment = `
+//uniform sampler2D globeTexture;
 void main(){
 
   float intensity = pow(0.6- dot(vertexNormal, vec3(0.0, 0.0, 1.0)), 2.0);
@@ -13,4 +13,5 @@ void main(){
 
 
 
-}
+}`
+export default atmosphereFragment
