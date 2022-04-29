@@ -2,12 +2,19 @@
 // https://thebookofshaders.com/
 
 // paste from vertex shader
-varying vec2 vertexUV;
+//varying vec2 vertexUV;
 
 // how we get vertex normal data
-varying vec3 vertexNormal;
+//varying vec3 vertexNormal;
 
-uniform sampler2D globeTexture;
+//uniform sampler2D globeTexture;
+
+
+
+}
+
+const Fragment = `
+//uniform sampler2D globeTexture;
 void main(){
     //grb values and alpha(transparency)
     // second argument is a UV coordinate
@@ -41,7 +48,5 @@ void main(){
   
   // create an atmosphere add a .xyz property
   
-
-
-
-}
+`
+export default Fragment
