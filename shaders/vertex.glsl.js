@@ -2,8 +2,6 @@
 //if we have to pass this vertex shader attribute to
 //fragment shader
 
-//varying vec2 vertexUV;
-//varying vec3 vertexNormal;
 
 //represents every vertex on the globe
 //https://threejs.org/docs/#api/en/renderers/webgl/WebGLProgram
@@ -25,6 +23,9 @@
 //takeaway is to use the boiler plate code for shader to work
  
 const Vertex = `
+varying vec2 vertexUV;
+varying vec3 vertexNormal;
+
 //uniform sampler2D globeTexture;
 void main(){
  
