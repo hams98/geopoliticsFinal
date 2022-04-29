@@ -7,9 +7,9 @@ console.log("hey")
 
 
 import atmosphereVertexShader from './shaders/atmosphereVertex.glsl.js'
-import vertexShader from './shaders/vertex.glsl'
+import vertexShader from './shaders/vertex.glsl.js'
 import atmosphereFragmentShader from './shaders/atmosphereFragment.glsl.js'
-import fragmentShader from './shaders/fragment.glsl'
+import fragmentShader from './shaders/fragment.glsl.js'
 
 //console.log(vertexShader)
 //console.log(fragmentShader)
