@@ -438,13 +438,7 @@ function animate(){
   // render the scene
   renderer.render(scene, camera)
   sphere.rotation.y +=0.008
-   group.rotation.y = mouse.x
-
-  //  gsap.to(group.rotation, {
-  //   x: -mouse.y*0.3,
-  //   y: mouse.x* 0.5,
-  //   duration:2
-  // })  
+   group.rotation.y = mouse.x 
 } 
 animate()
 
@@ -452,7 +446,7 @@ animate()
 
 
 
-//gsop
+
 
 
 
