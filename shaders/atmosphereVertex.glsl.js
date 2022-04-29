@@ -1,12 +1,7 @@
 //we have a default vertex attribute vec2 uv
 //if we have to pass this vertex shader attribute to
 //fragment shader
-
-
 //varying vec3 vertexNormal;
-
-
-
 //varying vec3 vertexNormal;
 const atmosphereVertex = `
 //uniform sampler2D globeTexture;
