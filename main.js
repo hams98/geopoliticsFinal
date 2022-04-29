@@ -2,10 +2,6 @@ import * as THREE from 'three'
 
 
 import { Float32BufferAttribute, MeshBasicMaterial } from 'three';
-console.log("hey")
-//install a vite-plug in string so vite understangs to import the shader
-
-
 import atmosphereVertexShader from './shaders/atmosphereVertex.glsl.js'
 import vertexShader from './shaders/vertex.glsl.js'
 import atmosphereFragmentShader from './shaders/atmosphereFragment.glsl.js'
