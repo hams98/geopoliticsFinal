@@ -1,7 +1,10 @@
 import vitePluginString from 'vite-plugin-string'
 
-export default {
-  plugins: [
-    vitePluginString()
-  ]
-}
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+base: '/geopoliticsFinal/',
+plugins: [
+  vitePluginString()
+]
+})
