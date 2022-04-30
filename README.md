@@ -1,8 +1,8 @@
 My plan massively changed from 7  to 8.
 
 Accessible:I have used a color contrast to make the globe easily visible.
-I do not have many heading as such
 
+Video -- https://drive.google.com/file/d/1XAF6tFX-6ssft9ulmg8o9Nm_bm74NCdo/view?usp=sharing
 
 B. **Figma Prototypes**:https://www.figma.com/file/QGDu3eSndzaH5ao1rF56jm/Globe-Project?node-id=0%3A1
 
