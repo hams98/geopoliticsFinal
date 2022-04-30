@@ -172,7 +172,7 @@ const camera = new THREE.PerspectiveCamera(75 ,innerWidth /innerHeight, 0.1, 100
 we will be injecting it to out html using javascript */
 const renderer = new THREE.WebGLRenderer({
      antialias: true,
-    //canvas: document.querySelector('canvas')
+     canvas: document.querySelector('canvas')
 })
 
 console.log(scene)
@@ -184,7 +184,7 @@ renderer.setSize(innerWidth, innerHeight)
 
 // to not have jagged edges
 renderer.setPixelRatio(window.devicePixelRatio)
-document.body.appendChild(renderer.domElement)
+//document.body.appendChild(renderer.domElement)
 
 
 
